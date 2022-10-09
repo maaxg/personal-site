@@ -34,10 +34,6 @@ class Header extends HTMLElement {
       <nav class="navbar">
         <div class="navbar-content">
           <a translate="no" href="../../index.html" class="navbar-text">Home</a>
-          <section>
-            <button>PT-BR</button>
-            <button>EN</button>
-          </section>
         </div>
       </nav> 
     </header>

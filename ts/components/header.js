@@ -31,14 +31,10 @@ class Header extends HTMLElement {
         justify-content: space-around;
       }
     </style>
-    <header translate="no">
+    <header >
       <nav class="navbar">
         <div class="navbar-content">
-          <a href="../../index.html" class="navbar-text">Home</a>
-          <section>
-            <button>PT-BR</button>
-            <button>EN</button>
-          </section>
+          <a translate="no" href="../../index.html" class="navbar-text">Home</a>
         </div>
       </nav> 
     </header>
