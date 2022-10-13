@@ -81,34 +81,40 @@
 }
 
 
-.me-developer-container {
+
+.dev-writer-container {
   display: flex;
-  flex: 1;
-  flex-direction: column;
-  background-color: #f2f2f2;
-}
-
-
-.me-developer-content {
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  margin-top: 30px;
-}
-
-.me-developer-img {
-  width: 40vw; 
-  height: 40vw;
-  margin-bottom: 10px;
-}
-
-.first-img {
-  margin-right: 24px;
-}
-
-.me-name-and-img {
   align-items: center;
+  justify-content: center;
 }
+
+
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  font-size: 1.6rem;
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+
 
 .button-border {
   border-width: 1px;
@@ -129,10 +135,7 @@
   transition: background-color 1s;
 }
 
-.me-img-read-more-container {
-  display: flex;
-  flex-direction: column;
-}
+
 
 .we-build-digital-container {
   display: flex;
