@@ -252,6 +252,7 @@
 .gallery-item:hover .overlay {
   opacity: 1;
   transition: opacity 1s;
+  cursor: pointer;
 }
 
 
